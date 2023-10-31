@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	list-style: none;	
+}
+
+body {
+	background-color: #353e45 ;
+}
+
+.full {
+	display: flex;
+}
+
+.left {
+	width: 300px;
+	display: inline-block;
+	grid-template-columns: 2fr 4fr;
+	margin-left: 270px;
+	background-color: rgb(58, 65, 67) ;
+	height: 1000px;
+}
+
+.left img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border: solid #424f53 ;
+	border-width: 15px 15px 15px 15px;
+	object-fit: cover;
+	padding: 10px;
+	
+}
+
+.right {
+	width: 520px;
+	background-color: rgba(44, 55, 59, 0.564) ;
+	overflow-y: scroll;
+}
+
+.right h1 {
+	margin-left: 50px;
+	margin-top: 70px;
+	color: #fff;
+	font-size: xx-large;
+}
+
+.right h3 {
+	margin-left: 50px;
+	color: #fff;
+	font-size: medium;
+}
+.right h3 {
+	margin-left: 50px;
+	color: #fff;
+	font-size: medium;
+	font-weight: 400;
+}
+
+.right p {
+	margin-left: 50px;
+	margin-top: 50px;
+	color: #fff;
+	font-size: medium;
+	max-width: 350px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	
+}
+
+.kontak {
+	margin-top: 1rem;
+	margin-left: 30px;
+	margin-right: 3px;
+	background-color: #3a4d53;
+	padding: 4px;
+	padding-left: 50px;
+	color: whitesmoke;
+}
+
+ ul {
+	 margin-top: 30px;
+}
+ li {
+	margin-top: 10px ;
+	margin-left: 45px;
+	color: #fff;
+}
+ li a {
+	margin-top: 10px ;
+	margin-left: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.pendidikan {
+	margin-top: 3rem;
+	margin-left: 30px;
+	margin-right: 3px;
+	background-color: #3a4d53;
+	padding: 4px;
+	padding-left: 50px;
+	color: white;
+	list-style: none;
+}
+
+.sekolah {
+	font-weight: bold;
+}
+
+.keahlian{
+	margin-top: 1rem;
+	margin-left: 30px;
+	margin-right: 3px;
+	background-color: #3a4d53;
+	padding: 4px;
+	padding-left: 50px;
+	color: whitesmoke;
+}
+
+.pengalaman{
+	margin-top: 2.5rem;
+	margin-left: 30px;
+	margin-right: 60px;
+	background-color: #3a4d53;
+	padding: 4px;
+	padding-left: 50px;
+	color: whitesmoke;
+}
+
+.hobi{
+	margin-top: 2.5rem;
+	margin-left: 30px;
+	margin-right: 60px;
+	background-color: #3a4d53;
+	padding: 4px;
+	padding-left: 50px;
+	color: whitesmoke;
+}
